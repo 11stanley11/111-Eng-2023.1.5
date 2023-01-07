@@ -32,12 +32,12 @@ void setMotor(int sita) {
   if (fi > 0) { //當旋轉角度為正 馬達正轉
     analogWrite(Port[0], speed);
     digitalWrite(Port[1], LOW);
-    delay(fi * 16);
+    delay(fi*14+100);
   }
   else if (fi < 0) { //當旋轉角度為負 馬達反轉
     analogWrite(Port[0], speed);
     digitalWrite(Port[1], HIGH);
-    delay(abs(fi) * 15.8);
+    delay(abs(fi)*14+100);
   }
   analogWrite(Port[0], 0);
 }
