@@ -13,7 +13,9 @@ void loop() {
   readValue(); //讀值
   setServo(servo); 
   setMotor(motor);
-  //Serial.println(servo);
-  //Serial.println(motor);
-  //delay(5000);
+  Serial.print("servo= ");
+  Serial.println(173 - (90 - servo) / 2);
+  Serial.print("motor= ");
+  Serial.println(motor);
+  delay(5000);
 }
