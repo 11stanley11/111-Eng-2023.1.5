@@ -209,7 +209,7 @@ Sleep(10000);
         // cout << "  year  : " << year << endl;
         // cout << "  month : " << m << endl;
         // cout << "  day   : " << day << "\n\n";
-        // cout << "  time  : " << ctime(&sekunnit) << endl;
+        cout << "time:" << ctime(&sekunnit) << endl;
         // cout << "Days since Y2K :  " << jd << '\n';
         // cout.precision(2);
         // cout << "Latitude :  " << latit << ", longitude:  " << longit << endl;
